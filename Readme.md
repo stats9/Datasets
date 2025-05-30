@@ -15,7 +15,7 @@ datasets/
 
 | Dataset Name | Description | Source | Last Updated |
 |--------------|-------------|---------|--------------|
-| datlabeled1  | 4 explantory and quantitative variables and one class variables | [source link] | 2025-05-30 |
+| datlabeled1  | 4 explantory and quantitative variables and one class variables | [link](https://github.com/stats9/Datasets/blob/main/processed/datlabeled1.xlsx) | 2025-05-30 |
 | [Dataset 2]  | Brief description | [Source link] | YYYY-MM-DD |
 
 ## Data Dictionary
