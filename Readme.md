@@ -50,7 +50,7 @@ Please refer to the dataset documentation in its folder.
   - Range: 1363 to 1402 (Iranian Calendar)
   - Frequency: Yearly
 - **Coefficient**: Gini Coefficient (Numeric)
-  - Type: Weighted decile measurement
+  - Type: Gini Index Coefficient Not Weighted
   - Unit: Index value between 0-1
   - Source: Statistical Center of Iran (amar.org.ir)
 ## Usage
