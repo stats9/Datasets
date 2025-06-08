@@ -19,6 +19,12 @@ datasets/
 | SCOREDATA | Student reading comprehension scores comparing three teaching methods with 15 repetitions each | [link](processed/SCOREDATA.xlsx) | 2025-06-04 |
 | UNEMPLOYMENT_IR | Seasonal unemployment rate for ages 15-24 in Iran (1384-1403) | [link](https://amar.org.ir/statistical-information/statid/21889) | 2025-06-06 |
 | GDP_Weighted_Iran | Weighted decile Gini Coefficient in Iran (1363-1402) | [link](https://amar.org.ir/statistical-information/statid/21861) | 2025-06-06 |
+| CustomerSegmentation | Customer segmentation data with demographic and spending information | [link](processed/CustomerSegmentation.xlsx) | 2025-06-08 |
+| PatientGroups | Patient health metrics for grouping analysis | [link](processed/PatientGroups.xlsx) | 2025-06-08 |
+| StudentPerformance | Student academic performance across multiple subjects | [link](processed/StudentPerformance.xlsx) | 2025-06-08 |
+| FraudDetection | Transaction data for fraud detection analysis | [link](processed/FraudDetection.xlsx) | 2025-06-08 |
+| DiseaseDetection | Patient medical data for disease diagnosis | [link](processed/DiseaseDetection.xlsx) | 2025-06-08 |
+| LoanApproval | Loan applicant data for approval prediction | [link](processed/LoanApproval.xlsx) | 2025-06-08 |
 
 
 ## Data Dictionary
@@ -53,6 +59,46 @@ Please refer to the dataset documentation in its folder.
   - Type: Gini Index Coefficient Not Weighted
   - Unit: Index value between 0-1
   - Source: Statistical Center of Iran (amar.org.ir)
+
+### CustomerSegmentation (100 observations)
+- **CustomerID**: Unique identifier for each customer (Integer)
+- **Age**: Customer age in years (Numeric)
+- **Income**: Annual income in dollars (Numeric)
+- **SpendingScore**: Customer spending score (Scale 1-100)
+
+### PatientGroups (150 observations)
+- **PatientID**: Unique identifier for each patient (Integer)
+- **BloodPressure**: Systolic blood pressure in mmHg (Numeric)
+- **Cholesterol**: Blood cholesterol level in mg/dL (Numeric)
+- **BMI**: Body Mass Index in kg/m² (Numeric)
+
+### StudentPerformance (120 observations)
+- **StudentID**: Unique identifier for each student (Integer)
+- **MathScore**: Mathematics score (Scale 0-100)
+- **ScienceScore**: Science score (Scale 0-100)
+- **ReadingScore**: Reading comprehension score (Scale 0-100)
+
+### FraudDetection (200 observations)
+- **TransactionID**: Unique identifier for each transaction (Integer)
+- **Amount**: Transaction amount in dollars (Numeric)
+- **Frequency**: Monthly transaction frequency (Numeric)
+- **BalanceHistory**: Account balance history in dollars (Numeric)
+- **FraudLabel**: Fraud status (Categorical: "Fraud" or "Not Fraud")
+
+### DiseaseDetection (250 observations)
+- **PatientID**: Unique identifier for each patient (Integer)
+- **BloodSugar**: Blood sugar level in mg/dL (Numeric)
+- **BloodPressure**: Systolic blood pressure in mmHg (Numeric)
+- **Cholesterol**: Blood cholesterol level in mg/dL (Numeric)
+- **DiseaseStatus**: Disease status (Categorical: "Yes" or "No")
+
+### LoanApproval (180 observations)
+- **ApplicantID**: Unique identifier for each loan applicant (Integer)
+- **Income**: Annual income in dollars (Numeric)
+- **CreditScore**: Credit score (Scale 500-850)
+- **ExistingDebt**: Current debt amount in dollars (Numeric)
+- **LoanApproval**: Loan approval status (Categorical: "Approved" or "Rejected")
+
 ## Usage
 
 ```python
