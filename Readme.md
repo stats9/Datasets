@@ -13,18 +13,18 @@ datasets/
 
 ## Datasets Overview
 
-| Dataset Name | Description | Source | Last Updated |
+| Dataset Name | Description | Download Link | Last Updated |
 |--------------|-------------|---------|--------------|
-| datlabeled1  | 4 explantory and quantitative variables and one class variables | [link](https://github.com/stats9/Datasets/blob/main/processed/datlabeled1.xlsx) | 2025-05-30 |
+| datlabeled1  | 4 explantory and quantitative variables and one class variables | [link](https://github.com/stats9/Datasets/raw/main/processed/datlabeled1.xlsx) | 2025-05-30 |
 | SCOREDATA | Student reading comprehension scores comparing three teaching methods with 15 repetitions each | [link](processed/SCOREDATA.xlsx) | 2025-06-04 |
 | UNEMPLOYMENT_IR | Seasonal unemployment rate for ages 15-24 in Iran (1384-1403) | [link](https://amar.org.ir/statistical-information/statid/21889) | 2025-06-06 |
 | GDP_Weighted_Iran | Weighted decile Gini Coefficient in Iran (1363-1402) | [link](https://amar.org.ir/statistical-information/statid/21861) | 2025-06-06 |
-| CustomerSegmentation | Customer segmentation data with demographic and spending information | [link](processed/CustomerSegmentation.xlsx) | 2025-06-08 |
-| PatientGroups | Patient health metrics for grouping analysis | [link](processed/PatientGroups.xlsx) | 2025-06-08 |
-| StudentPerformance | Student academic performance across multiple subjects | [link](processed/StudentPerformance.xlsx) | 2025-06-08 |
-| FraudDetection | Transaction data for fraud detection analysis | [link](processed/FraudDetection.xlsx) | 2025-06-08 |
-| DiseaseDetection | Patient medical data for disease diagnosis | [link](processed/DiseaseDetection.xlsx) | 2025-06-08 |
-| LoanApproval | Loan applicant data for approval prediction | [link](processed/LoanApproval.xlsx) | 2025-06-08 |
+| CustomerSegmentation | Customer segmentation data with demographic and spending information | [link](https://github.com/stats9/Datasets/raw/main/processed/CustomerSegmentation.xlsx) | 2025-06-08 |
+| PatientGroups | Patient health metrics for grouping analysis | [link](https://github.com/stats9/Datasets/raw/main/processed/PatientGroups.xlsx) | 2025-06-08 |
+| StudentPerformance | Student academic performance across multiple subjects | [link](https://github.com/stats9/Datasets/raw/main/processed/StudentPerformance.xlsx) | 2025-06-08 |
+| FraudDetection | Transaction data for fraud detection analysis | [link](https://github.com/stats9/Datasets/raw/main/processed/FraudDetection.xlsx) | 2025-06-08 |
+| DiseaseDetection | Patient medical data for disease diagnosis | [link](https://github.com/stats9/Datasets/raw/main/processed/DiseaseDetection.xlsx) | 2025-06-08 |
+| LoanApproval | Loan applicant data for approval prediction | [link](https://github.com/stats9/Datasets/raw/main/processed/LoanApproval.xlsx) | 2025-06-08 |
 | Nobel_Prize_Clean | Structured dataset of Nobel Prize laureates including year, category, motivation, country of birth, and affiliations | [link](https://github.com/stats9/Datasets/raw/main/processed/nobel_prize_clean.csv) | 2025-12-04 |
 
 
