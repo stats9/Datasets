@@ -25,6 +25,7 @@ datasets/
 | FraudDetection | Transaction data for fraud detection analysis | [link](processed/FraudDetection.xlsx) | 2025-06-08 |
 | DiseaseDetection | Patient medical data for disease diagnosis | [link](processed/DiseaseDetection.xlsx) | 2025-06-08 |
 | LoanApproval | Loan applicant data for approval prediction | [link](processed/LoanApproval.xlsx) | 2025-06-08 |
+| Nobel_Prize_Clean | Structured dataset of Nobel Prize laureates including year, category, motivation, country of birth, and affiliations | [link](processed/nobel_prize_clean.csv) | 2025-12-04 |
 
 
 ## Data Dictionary
@@ -99,6 +100,16 @@ Please refer to the dataset documentation in its folder.
 - **ExistingDebt**: Current debt amount in dollars (Numeric)
 - **LoanApproval**: Loan approval status (Categorical: "Approved" or "Rejected")
 
+
+### Nobel_Prize_Clean
+- **Year**: Year of the award (Numeric, 1901–2025)  
+- **Category**: Prize category (Categorical: "physics", "chemistry", "medicine", "peace", "literature", "economics")  
+- **Laureate_ID**: Unique identifier for each laureate (Integer)  
+- **Name**: Full name of the laureate (String)  
+- **Motivation**: Official Nobel Committee statement for awarding the prize (String)  
+- **Share**: Share of the prize when divided among multiple laureates (Numeric: 1, 2, 3, …)  
+- **Born_Country**: Country of birth of the laureate (String)  
+
 ## Usage
 
 ```python
@@ -127,6 +138,14 @@ response = requests.get(url)
 gini_coef = pd.read_excel(BytesIO(response.content))
 ```
 
+
+```python
+import pandas as pd
+
+url = "https://github.com/stats9/Datasets/raw/main/processed/nobel_prize_clean.csv"
+nobel = pd.read_csv(url)
+print(nobel.head())
+```
 
 
 ```r
