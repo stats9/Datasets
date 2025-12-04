@@ -25,7 +25,7 @@ datasets/
 | FraudDetection | Transaction data for fraud detection analysis | [link](processed/FraudDetection.xlsx) | 2025-06-08 |
 | DiseaseDetection | Patient medical data for disease diagnosis | [link](processed/DiseaseDetection.xlsx) | 2025-06-08 |
 | LoanApproval | Loan applicant data for approval prediction | [link](processed/LoanApproval.xlsx) | 2025-06-08 |
-| Nobel_Prize_Clean | Structured dataset of Nobel Prize laureates including year, category, motivation, country of birth, and affiliations | [link](processed/nobel_prize_clean.csv) | 2025-12-04 |
+| Nobel_Prize_Clean | Structured dataset of Nobel Prize laureates including year, category, motivation, country of birth, and affiliations | [link]("https://github.com/stats9/Datasets/raw/main/processed/nobel_prize_clean.csv") | 2025-12-04 |
 
 
 ## Data Dictionary
@@ -143,7 +143,9 @@ gini_coef = pd.read_excel(BytesIO(response.content))
 import pandas as pd
 
 url = "https://github.com/stats9/Datasets/raw/main/processed/nobel_prize_clean.csv"
-nobel = pd.read_csv(url)
+
+# Option 1: Latin-1 (ISO-8859-1)
+nobel = pd.read_csv(url, encoding="latin1")
 print(nobel.head())
 ```
 
