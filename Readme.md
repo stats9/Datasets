@@ -110,6 +110,9 @@ Please refer to the dataset documentation in its folder.
 - **Motivation**: Official Nobel Committee statement for awarding the prize (String)  
 - **Share**: Share of the prize when divided among multiple laureates (Numeric: 1, 2, 3, …)  
 - **Born_Country**: Country of birth of the laureate (String)  
+- **Gender**: Gender of the laureate (Categorical: "male", "female", "organization")  
+- **Continent**: Continent corresponding to the laureate’s country of birth (Categorical: "Europe", "Asia", "Africa", "North America", "South America", "Oceania", "International")  
+
 
 ## Usage
 
