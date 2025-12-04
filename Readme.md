@@ -14,7 +14,7 @@ datasets/
 ## Datasets Overview
 
 
-| Dataset Name | Description | Download Link | Last Updated |
+| Dataset Name | Description | Link | Last Updated |
 |--------------|-------------|---------|--------------|
 | datlabeled1  | 4 explantory and quantitative variables and one class variables | [link](https://github.com/stats9/Datasets/raw/main/processed/datlabeled1.csv) | 2025-05-30 |
 | SCOREDATA | Student reading comprehension scores comparing three teaching methods with 15 repetitions each | [link](https://github.com/stats9/Datasets/raw/main/processed/SCOREDATA.csv) | 2025-06-04 |
